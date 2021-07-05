@@ -33,7 +33,7 @@ h1 {
 	text-align: center;
 }
 
-div#Transparent {
+div.Transparent {
 	border: 0px;
 	background-color: transparent;
 	padding: 10px;
@@ -57,21 +57,21 @@ p.Dishes {
 }
 
 
-#Chicken {
+.Chicken {
 	background-color: #d59898;
 }
 
-#Beef {
+.Beef {
 	background-color: #c14543;
 	color: white;
 }
 
-#Sushi {
+.Sushi {
 	background-color: #e5d198;
 }
 
 .content {
-	padding:  10px;
+	padding:  15px;
 	clear:  right;
+	margin: 0px;
 }
-
