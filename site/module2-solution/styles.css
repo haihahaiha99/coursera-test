@@ -1,0 +1,77 @@
+@font-face {
+   font-family: Chams;
+   src: url(ChamsBlack.woff);
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "ChamsBlack", Chams, sans-serif;
+}
+
+@media (min-width: 992px){
+	div.col-lg-4{
+		float:  left
+	}
+	.col-lg-4 {
+    width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	div.col-md-6, div.col-md-12{
+		float:  left
+	}
+	.col-md-6 {
+    width: 50%;
+	}
+	.col-md-12{
+	width:  100%;
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+div#Transparent {
+	border: 0px;
+	background-color: transparent;
+	padding: 10px;
+}
+
+div.Dishes {
+	padding-top: 0px;
+	background-color: #999999;
+	border: 1px solid black;
+	position:  relative;
+
+}
+
+p.Dishes {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 0px;
+	text-align: center;
+	float: right;
+}
+
+
+#Chicken {
+	background-color: #d59898;
+}
+
+#Beef {
+	background-color: #c14543;
+	color: white;
+}
+
+#Sushi {
+	background-color: #e5d198;
+}
+
+.content {
+	padding:  10px;
+	clear:  right;
+}
+
