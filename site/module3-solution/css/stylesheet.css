@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: cadetblue;
+	background-color: #92A8D1;
 }
 h2{
 	font-family: cursive;
@@ -15,7 +15,7 @@ div > p {
 }
 
 .content-cell {
-	background-color: oldlace;
+	background-color: #F7CAC9e;
 	margin-bottom: 15px;
 	padding: 10px 15px;
 }
@@ -44,7 +44,7 @@ div > p {
 	}
 	
 	#collapsable-nav {
-		background-color:cornsilk;
+		background-color:#DD4124;
 	}
 	
 	#nav-list {		
