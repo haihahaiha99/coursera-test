@@ -3,6 +3,10 @@
    src: url(Chams/ChamsBlack.woff);
 }
 
+* {
+	font-family: "ChamsBlack", Chams, sans-serif;
+}
+
 body{
 	background-color: #92A8D1;
 }
@@ -15,9 +19,10 @@ div > p {
 }
 
 .content-cell {
-	background-color: #F7CAC9e;
+	background-color: #F7CAC9;
 	margin-bottom: 15px;
 	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 .content-cell h2 {
@@ -48,7 +53,7 @@ margin-top: 0
 	}
 	
 	#collapsable-nav {
-		background-color:#DD4124;
+		background-color:#DFCFBE;
 	}
 	
 	#nav-list {		
